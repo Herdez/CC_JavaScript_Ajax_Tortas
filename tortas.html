@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    normalize.css remueve las diferenecia que hay entre browsers segun los defaults de css predeterminados que utilizan. 
+    Revisa: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--
+    application.css este es el archivo donde van tus estilos, tu css
+  -->
+  <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <link rel="stylesheet" href="css/torta.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/torta.js"></script>
+
+  <title></title>
+</head>
+<body>
+  <div class="all">
+    <div id="button"><p>Cook</p></div>
+    <div class="container">
+    <!--
+     <p>Tortas in tortas box:</p>
+     <p id="box">0</p>
+    -->
+     <p>Almost ready tortas:</p>
+      <p id="almost">0</p>
+     <p>Raw tortas:</p>
+     <p id="raw">0</p>
+     <!--
+     <p>The Tortero cook:</p>
+     <p id="total">0</p>
+     -->
+    </div>
+    <div class="oven">
+      <img src="img/oven.png">
+    </div>
+    <div class="box">
+      <div class="left">
+        <p>Tortas delivered:<spam id="box">0</spam></p>
+      </div>
+      <div class="right">
+        <p>Tortas cooked:<spam id="total">0</spam></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
